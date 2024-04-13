@@ -30,8 +30,8 @@ func load_config() -> void:
 		pass
 	else:    
 		var env = ConfigFile.new()
-		var err = env.load("res://addons/supabase/.env")
-		if err == OK:
+		#var err = env.load("res://addons/supabase/.env")
+		if env.load("res://addons/supabase/.env") == OK || env.load("res://.env") == OK:
 			for key in config.keys(): 
 				var value : String = env.get_value(ENVIRONMENT_VARIABLES, key, "")
 				if value == "":

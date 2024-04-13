@@ -1,6 +1,5 @@
 <p align="center"><img src="addons/supabase/icon.svg" width="80px"/></p>
 
-👉 [3.x](https://github.com/supabase-community/godot-engine.supabase/tree/main)
 
 # Godot Engine - Supabase (4.x)
 A lightweight addon which integrates Supabase APIs for Godot Engine out of the box.  
@@ -9,10 +8,6 @@ A lightweight addon which integrates Supabase APIs for Godot Engine out of the b
 - [x] Database (/database)
 - [x] Realtime (/realtime)
 - [x] Storage (/storage)
-
-
-### UI Library
-A drag&drop UI Library is available at [supabase-ui](https://github.com/fenix-hub/godot-engine.supabase-ui).
 
 ### examples and demos
 A collection of examples and live demos is available at [*fenix-hub/godot-engine.supabase-examples*](https://github.com/fenix-hub/godot-engine.supabase-examples), both with source code and exported binaries.  
